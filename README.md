@@ -1,3 +1,13 @@
+# Form1 — formulário de cadastro em React
+
+Exercício de formulário com campos de nome, sobrenome e CPF, além das opções de promoções e novidades. Usa estado local com `useState` e componentes do Material UI. O envio chama uma função em `App.js` que escreve os dados no console; não implementa cadastro persistido nesse fluxo.
+
+A função `validarCPF` verifica apenas comprimento igual a 11. Não verifica dígitos verificadores nem somente caracteres numéricos, e a mensagem exibida ao perder o foco não bloqueia o envio. Para experimentar, use dados fictícios.
+
+O manifesto declara React 17/18, Material UI 4 e react-scripts 5. Os scripts `start`, `build` e `test` estão descritos abaixo na documentação do Create React App.
+
+## Documentação original do scaffold
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -23,7 +33,7 @@ Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+After a successful build, the generated files can be deployed using the instructions below.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
